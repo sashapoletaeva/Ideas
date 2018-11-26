@@ -1,0 +1,349 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+
+body {
+  background-color: #F2F7F5;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.whiteBox {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 600px;
+  background-color: #D8D8D8;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.texOne {
+  font-size: 26px;
+  transform: rotate(-90deg);
+  margin-left: 150px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+p {
+  font-size: 73px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.numberOne {
+  position: absolute;
+  left: 950px;
+  top: 520px;
+  font-size: 250px;
+  font-weight: 800;
+  color: orange;
+}
+
+.numberTwo {
+  position: absolute;
+  left: 850px;
+  top: 910px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #EA3600;
+}
+
+.numberTree {
+  position: absolute;
+  left: 1080px;
+  top: 1350px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #3EA1E8;
+}
+
+.numberFour {
+  position: absolute;
+  left: 550px;
+  top: 1916px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #D9BF2C;
+}
+
+.numberFive {
+  position: absolute;
+  left: 956px;
+  top: 2564px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #7FEFBD;
+}
+
+.numberSix {
+  position: absolute;
+  left: 528px;
+  top: 3069px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #343535;
+}
+
+.numberSeven {
+  position: absolute;
+  left: 1026px;
+  top: 3695px;
+  font-size: 250px;
+  font-weight: 800;
+  color: black;
+}
+
+.boxOne {
+  position: absolute;
+  display: flex;
+  left: 1000px;
+  top: 600px;
+  width: 550px;
+  height: 600px;
+  background-color: white;
+  z-index: -1;
+}
+
+.boxTwo {
+  position: absolute;
+  display: flex;
+  left: 500px;
+  top: 990px;
+  width: 550px;
+  height: 600px;
+  background-color: #D8D8D8;
+  z-index: -1;
+}
+
+.boxTree {
+  position: absolute;
+  display: flex;
+  left: 700px;
+  top: 1460px;
+  width: 950px;
+  height: 600px;
+  background-color: white;
+  z-index: -3;
+}
+
+.boxFour {
+  position: absolute;
+  display: flex;
+  left: 500px;
+  top: 2030px;
+  width: 550px;
+  height: 600px;
+  background-color: #D8D8D8;
+  z-index: -1;
+}
+
+.boxFive {
+  position: absolute;
+  left: 1000px;
+  top: 2600px;
+  width: 550px;
+  height: 600px;
+  background-color: white;
+  z-index: -1;
+}
+
+.boxSix {
+  position: absolute;
+  display: flex;
+  left: 572px;
+  top: 3153px;
+  width: 950px;
+  height: 600px;
+  background-color: #D8D8D8;
+  z-index: -5;
+}
+
+.boxSeven {
+  position: absolute;
+  display: flex;
+  left: 512px;
+  top: 3745px;
+  width: 550px;
+  height: 600px;
+  background-color: #fff;
+  z-index: -5;
+}
+
+.textBox {
+  display: flex;
+  width: 50%;
+  margin-left: 350px;
+}
+
+.textBoxTwo {
+  /* display: flex; */
+  width: 600px;
+  text-align: left;
+  margin-left: 220px;
+  margin-top: 300px;
+}
+
+.textBoxFive {
+  /* display: flex; */
+  width: 550px;
+  margin-left: 136px;
+  margin-top: 240px;
+}
+
+.textBoxSix {
+  width: 900px;
+  align-self: flex-end;
+  padding: 25px;
+}
+
+.textBoxSeven {
+  width: 550px;
+  align-self: flex-end;
+  padding: 30px;
+}
+
+.workBookText {
+  font-size: 26px;
+  margin-top: 480px;
+  margin-left: 40px;
+  width: 800px;
+}
+
+.textTwo {
+  font-size: 26px;
+  transform: rotate(-90deg);
+}
+
+.textFour {
+  font-size: 26px;
+  width: 500px;
+  align-self: flex-end;
+  margin-left: 61px;
+  margin-bottom: 25px;
+}
+
+.textFive {
+  font-size: 26px;
+  transform: rotate(-90deg);
+}
+
+.textSix {
+  font-size: 26px;
+}
+
+.textSeven {
+  font-size: 26px;
+}
+
+.imageOne {
+  position: absolute;
+  left: 1080px;
+  top: 640px;
+  width: 13%;
+}
+
+.imageTwo {
+  position: absolute;
+  left: 580px;
+  top: 1060px;
+  width: 16%;
+}
+
+.imageTree {
+  position: absolute;
+  left: 1050px;
+  top: 1560px;
+  width: 33%;
+}
+
+.imageFour {
+  position: absolute;
+  left: 137px;
+  top: 83px;
+  width: 67%;
+}
+
+.imageFive {
+  position: absolute;
+  left: 58px;
+  top: 30px;
+  width: 69%;
+}
+
+.imageSix {
+  position: absolute;
+  left: 98px;
+  top: -9px;
+  width: 79%;
+}
+
+.imageSeven {
+  position: absolute;
+  left: 61px;
+  top: -9px;
+  width: 70%;
+}
+
+.imageSeven:hover {
+  transform: scale(1.5);
+}
+
+.imageSix:hover {
+  transform: scale(1.5);
+}
+
+.imageFive:hover {
+  transform: scale(1.5);
+}
+
+.imageFour:hover {
+  transform: scale(2);
+}
+
+.imageTwo:hover {
+  transform: scale(1.5);
+}
+
+.imageOne:hover {
+  transform: scale(1.5);
+}
+
+.imagefour {
+  width: 30%;
+}
+
+.colorMine {
+  color: orange;
+}
+
+.colorOI {
+  color: #EA3600;
+}
+
+.colorWB {
+  color: #3EA1E8;
+  text-shadow: 1px solid #999;
+}
+
+.colorL {
+  color: #D9BF2C;
+}
+
+.colorFive {
+  color: #7FEFBD;
+}
+
+.colorSix {
+  color: #85cc15;
+}
+
+.colorSeven {
+  color: black;
+}
